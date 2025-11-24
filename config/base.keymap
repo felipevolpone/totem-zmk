@@ -126,7 +126,7 @@ ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&sl NUM>;
 ZMK_TRI_STATE(
     smart_mouse, bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
     ignored-key-positions =
-        <LT1 LT2 LH1 LH0 LT0 RT1 RT2 RT3 RM0 RM1 RM2 RM3 RM4 RB1 RB2 RB3 RH0 RH1>;
+        <LT1 LT2 LT0 RT1 RT2 RT3 RM0 RM1 RM2 RM3 RM4 RB1 RB2 RB3 RH0 RH1>;
     ignored-layers = <MOUSE NAV FN>;)
 
 /* Custom behaviors */
@@ -164,8 +164,8 @@ ZMK_BASE_LAYER(Nav,
 
 ZMK_BASE_LAYER(Fn,
     &none  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    ,    &kp N0      &kp LA(LEFT)   &kp LA(RIGHT)   &kp LG(LS(J))  &none,
-    &none  &kp C_VOLUME_DOWN     &kp K_MUTE             &kp C_VOLUME_UP     &kp LG(LEFT)           ,    &caps_word  &kp TAB        &kp LS(TAB)     &none          &none,
-    &none  &none                 &kp C_PLAY_PAUSE       &none               &kp LG(RIGHT)          ,    &sk RGUI    &kp LG(LS(N4)) &none           &none          &none,
+    &none  &kp C_VOLUME_DOWN     &kp K_MUTE             &kp C_VOLUME_UP     &kp LG(LEFT)           ,    &sk RGUI    &kp TAB        &kp LS(TAB)     &caps_word     &none,
+    &none  &none                 &kp C_PLAY_PAUSE       &none               &kp LG(RIGHT)          ,    &none       &kp LG(LS(N4)) &none           &none          &none,
                                                         &kp LS(ENTER)       &smart_mouse           ,    &none       &none
 )
 
