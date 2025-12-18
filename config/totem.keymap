@@ -6,8 +6,8 @@
 #define X_LB    &none
 #define X_RB    &kp RGUI
 
-#define X_LH    SMART_NUM
-#define X_RH    &sk LSHFT
+#define X_LH    &none
+#define X_RH    &none
 
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                   \
     ZMK_LAYER(                                                                 \
