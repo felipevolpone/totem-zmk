@@ -62,9 +62,9 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
   ZMK_COMBO_6(NAME, &hm_combo_##NAME HOLD 0, POS, LAYERS, COMBO_MS, IDLE_MS)
 
 // Tmux macros
-ZMK_MACRO(tmux_next_window, bindings = <&kp LC(A) &kp N>; wait-ms = <0>; tap-ms = <5>;)
+ZMK_MACRO(tmux_next_window,     bindings = <&kp LC(A) &kp N>; wait-ms = <0>; tap-ms = <5>;)
 ZMK_MACRO(tmux_previous_window, bindings = <&kp LC(A) &kp H>; wait-ms = <0>; tap-ms = <5>;)
-ZMK_MACRO(tmux_new_window, bindings = <&kp LC(A) &kp C>; wait-ms = <0>; tap-ms = <5>;)
+ZMK_MACRO(tmux_new_window,      bindings = <&kp LC(A) &kp C>; wait-ms = <0>; tap-ms = <5>;)
 
 // Vim navigation macros
 ZMK_MACRO(vim_j, bindings = <&to DEF &kp J>; wait-ms = <0>; tap-ms = <5>;)
