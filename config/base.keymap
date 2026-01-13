@@ -142,8 +142,8 @@ ZMK_MACRO(dot_spc, bindings = <&kp DOT &kp SPACE &sk LSHFT>; wait-ms = <0>;
 
 ZMK_BASE_LAYER(Base,
     &kp Q         &kp W         &kp E             &kp R         &kp T        ,   &kp Y         &kp U         &kp I             &kp O         &kp P     ,
-    &hml LGUI A   &kp S         &hml LSHFT D      &kp F         &kp G        ,   &kp H         &kp J         &hmr LSHFT K      &kp L         &hmr LGUI SEMICOLON ,
-    &kp Z         &kp X         &kp C             &kp V         &kp B        ,   &kp N         &kp M         &kp COMMA         &kp DOT       &kp QMARK      ,
+    &hml LGUI A   &kp S         &hml LSHFT D      &hml LCRTL F  &kp G        ,   &kp H         &hmr LCRTL J  &hmr LSHFT K      &kp L         &sk LSFT  ,
+    &kp Z         &kp X         &kp C             &kp V         &kp B        ,   &kp N         &kp M         &kp COMMA         &kp DOT       &kp RGUI  ,
                                                &lt_spc NAV 0 &lt FN ESCAPE   ,   &lt NUM ENTER   &lt FN BACKSPACE
 )
 
