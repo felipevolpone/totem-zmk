@@ -70,6 +70,9 @@ ZMK_MACRO(vim_j, bindings = <&to DEF &kp J>; wait-ms = <0>; tap-ms = <5>;)
 ZMK_MACRO(vim_k, bindings = <&to DEF &kp K>; wait-ms = <0>; tap-ms = <5>;)
 ZMK_MACRO(vim_space, bindings = <&kp SPACE &kp SPACE>; wait-ms = <0>; tap-ms = <5>;)
 
+// Select current line (Home, Shift+End)
+ZMK_MACRO(select_line, bindings = <&kp HOME &kp LS(END)>; wait-ms = <0>; tap-ms = <5>;)
+
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
 
 /* Nav cluster */
