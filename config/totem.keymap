@@ -3,7 +3,7 @@
 
 #define CONFIG_WIRELESS
 
-#define X_LB    &kp LCTRL
+#define X_LB    &sk RGUI
 #define X_RB    &sk RGUI
 
 #define X_LH    &tog NUM
