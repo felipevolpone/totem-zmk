@@ -6,7 +6,7 @@
 #define X_LB    &kp LCTRL
 #define X_RB    &sk RGUI
 
-#define X_LH    &sk LGUI
+#define X_LH    &tog NUM
 #define X_RH    &sk LSFT
 
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                   \
