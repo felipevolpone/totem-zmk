@@ -3,7 +3,7 @@
 
 #define CONFIG_WIRELESS
 
-#define X_LB    &kp LGUI(SPC)
+#define X_LB    &kp LG(SPACE)
 #define X_RB    &kp LC(LS(LA(LGUI)))
 
 #define X_LH    &kp RGUI
