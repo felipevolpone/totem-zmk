@@ -3,11 +3,11 @@
 
 #define CONFIG_WIRELESS
 
-#define X_LB    &kp LGUI
-#define X_RB    &kp LG(C)
+#define X_LB    &kp LGUI(SPC)
+#define X_RB    &kp LC(LS(LA(LGUI)))
 
 #define X_LH    &kp RGUI
-#define X_RH    &kp RGUI
+#define X_RH    &kp LGUI
 
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                   \
     ZMK_LAYER(                                                                 \
